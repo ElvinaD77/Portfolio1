@@ -1,0 +1,73 @@
+h1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: black;
+    color: rgb(75, 146, 122);
+    padding: 20px;
+}
+
+nav{
+    text-align: center;
+    padding: 10px;
+}
+
+li{
+    color: rgb(92, 163, 148);
+}
+
+p a{
+    color: rgb(173, 44, 44);
+}
+
+a{
+    color: rgb(92, 163, 148);
+    padding: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.profile{
+    flex: 70%;
+    padding: 20px;
+}
+
+.profile h1{
+    text-align: center;
+}
+
+.profile img{
+    width: 300px;
+    padding: 10px;
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+div img{
+    padding: 5px;
+    width: 250px;
+
+}
+
+footer p{
+    background-color: rgb(204, 226, 219);
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+body{
+    background: linear-gradient(aliceblue, rgb(185, 196, 207));
+}
+
+html{
+    scroll-behavior: smooth;
+}
